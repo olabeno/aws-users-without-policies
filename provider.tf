@@ -1,5 +1,5 @@
-provider "registry.terraform.io/hashicorp/aws\" {
+provider "aws" {
   # Configuration options
   region = "us-east-1"
-  profile = "default"
+  # profile = "default"
 }
